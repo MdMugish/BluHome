@@ -1,0 +1,1018 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		04E2CAAE1957EEF06596A4427B4AA93C /* Pods-Siri-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BE0BF02C22F2D3126A251D76A5D0D620 /* Pods-Siri-dummy.m */; };
+		051FA1B061B569AC229D295D0758CD95 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93BE44223FABF31AA11E3468B00D8217 /* Foundation.framework */; };
+		07DBCA590185D341053CC5265F6F8A17 /* Pods-BluHome-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EB09CCAF714D2CC995F235D85E92C7CC /* Pods-BluHome-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		191EFF0B8DC1E7242DDE6D81AC672CCB /* MMWormholeSessionContextTransiting.h in Headers */ = {isa = PBXBuildFile; fileRef = 616EFBFFF0A26DBA203FED04376F15B5 /* MMWormholeSessionContextTransiting.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		243D10C381166346FAF4394884502C7D /* Pods-SiriUI-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9BB5FE904E2DC09CC1645156BC1BDF74 /* Pods-SiriUI-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		359BAA30BBBA34D0AD407C38CA7B934D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93BE44223FABF31AA11E3468B00D8217 /* Foundation.framework */; };
+		5081FA3C2DB295DEEF59A962B09C3F81 /* MMWormhole-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CF40C3EEE69B42726177CFB371FD3124 /* MMWormhole-dummy.m */; };
+		5428438114541CF4E35F43BBBBBBB108 /* WatchConnectivity.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E86668C0FCD7A98CF1C9BACF114D5655 /* WatchConnectivity.framework */; };
+		567FF40EC8A7C974657770DC4C74155C /* MMWormholeSession.h in Headers */ = {isa = PBXBuildFile; fileRef = 53B4F5090DB6726D3915C5B4A435FD2B /* MMWormholeSession.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5911E8745577B61020E74CDCE8F72C56 /* MMWormhole.h in Headers */ = {isa = PBXBuildFile; fileRef = A469D0453EAB437DB34E3B786558EF57 /* MMWormhole.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5E29A862C84F13C3831B3D7F2E672FC4 /* MMWormholeCoordinatedFileTransiting.h in Headers */ = {isa = PBXBuildFile; fileRef = ACC5466141BE581E92CE2FDAE7ADB0AF /* MMWormholeCoordinatedFileTransiting.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5F01557044825FF6B7045B4F808D4827 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93BE44223FABF31AA11E3468B00D8217 /* Foundation.framework */; };
+		6A6F6B1B96F2D72CA8B7357350C992C8 /* Pods-BluHome-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 80AC8532C3CD536AE7B40B517C7EA409 /* Pods-BluHome-dummy.m */; };
+		6BEB338B7CA84895B474B811A6E9EE1F /* MMWormholeCoordinatedFileTransiting.m in Sources */ = {isa = PBXBuildFile; fileRef = E62DC1E65769EE97F4EF9FD9BD08AC6C /* MMWormholeCoordinatedFileTransiting.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		7283AB31361CCDBFA53AAE5881B2CB92 /* MMWormholeSessionFileTransiting.m in Sources */ = {isa = PBXBuildFile; fileRef = 16905662731888CD596DA269E1838B3B /* MMWormholeSessionFileTransiting.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		7B5CC9BF3571AF4980009571CF40CC92 /* MMWormholeSessionContextTransiting.m in Sources */ = {isa = PBXBuildFile; fileRef = ED2B23CF534F0FC41157FE8D0F478B01 /* MMWormholeSessionContextTransiting.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		7E1EE334AC1214978F1D7766F10FEB8E /* MMWormhole.m in Sources */ = {isa = PBXBuildFile; fileRef = F784E285675AE4F5C15D8BA7A1FD6567 /* MMWormhole.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		8079F023515044C721E0DE68E7B587CB /* MMWormholeSessionMessageTransiting.m in Sources */ = {isa = PBXBuildFile; fileRef = 354318723D85B20F9922695DC2973B02 /* MMWormholeSessionMessageTransiting.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		81C9F38B8B963E9EA142DECD722C791B /* MMWormholeFileTransiting.h in Headers */ = {isa = PBXBuildFile; fileRef = 6E3DD6EC4F589AB86182B9A57F652A4F /* MMWormholeFileTransiting.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		867B22881D2F1EA0D059479BD2330D63 /* MMWormholeSessionMessageTransiting.h in Headers */ = {isa = PBXBuildFile; fileRef = 6259E68B846C9B7676D5DA38E324F594 /* MMWormholeSessionMessageTransiting.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		923B80AE41E93A3FED6A0C22FE38CA71 /* MMWormholeSession.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B306FF12B7A39AD33B570A6355E398D /* MMWormholeSession.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		A1C062D5937B61F7251032F1B832C31D /* Pods-SiriUI-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F53675CC9490CFC11CD74F04539FABD /* Pods-SiriUI-dummy.m */; };
+		B43500247A72D58B683FBA2D6D2754C7 /* MMWormholeSessionFileTransiting.h in Headers */ = {isa = PBXBuildFile; fileRef = 9EC6ADC71817CE4D56B9B2B331E1D39E /* MMWormholeSessionFileTransiting.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CFBA76041735E02DAD55F3B46DBE7328 /* MMWormholeTransiting.h in Headers */ = {isa = PBXBuildFile; fileRef = 59CE3D8509346E21F978CE965C9DA2D7 /* MMWormholeTransiting.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D989F9CCE0BBEEE8616BF2B20491DE5D /* Pods-Siri-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A0CC71CE050C951040BB09A539FC67BB /* Pods-Siri-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DFBC5510BE4C35F79A7A98A047ADC436 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93BE44223FABF31AA11E3468B00D8217 /* Foundation.framework */; };
+		E275E625CE0CC817A95B0635ABBACE8E /* MMWormholeFileTransiting.m in Sources */ = {isa = PBXBuildFile; fileRef = FCDDB0D1B4656D3BE8CC2EE0FCD1A1B9 /* MMWormholeFileTransiting.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		E2A094877287F7FB2CDD25A7304D9E41 /* MMWormhole-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 60D9F065E5CBB041BBBA654755C1B53B /* MMWormhole-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D008CE4411C5E99DA459F78609A01F1D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E37C8494356B2F3F48E654AC46CD6824;
+			remoteInfo = MMWormhole;
+		};
+		E876D148016ABA350EBB9F2BEA143B21 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E37C8494356B2F3F48E654AC46CD6824;
+			remoteInfo = MMWormhole;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		022F733C129A695652F412EE65EB8662 /* Pods-BluHome-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BluHome-Info.plist"; sourceTree = "<group>"; };
+		0C0D09B2D8805A25EBA4A160E31441C4 /* Pods-SiriUI-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SiriUI-acknowledgements.markdown"; sourceTree = "<group>"; };
+		0D2991B88439062FDBA2AA0BF69561A1 /* Pods-BluHome.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BluHome.debug.xcconfig"; sourceTree = "<group>"; };
+		0D89A46B46A29A951761546BD124B28C /* Pods-BluHome-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-BluHome-acknowledgements.markdown"; sourceTree = "<group>"; };
+		16905662731888CD596DA269E1838B3B /* MMWormholeSessionFileTransiting.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MMWormholeSessionFileTransiting.m; path = Source/MMWormholeSessionFileTransiting.m; sourceTree = "<group>"; };
+		26A89DEFC34875B2055CBC0D3BDAB724 /* Pods_BluHome.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_BluHome.framework; path = "Pods-BluHome.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		26E78C25A258207C98DA845023B216B7 /* Pods-SiriUI.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SiriUI.debug.xcconfig"; sourceTree = "<group>"; };
+		32D3B33D2FC85B6F705A7BBCF5FCDBED /* Pods-BluHome.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BluHome.release.xcconfig"; sourceTree = "<group>"; };
+		354318723D85B20F9922695DC2973B02 /* MMWormholeSessionMessageTransiting.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MMWormholeSessionMessageTransiting.m; path = Source/MMWormholeSessionMessageTransiting.m; sourceTree = "<group>"; };
+		476E2F79A18D3038762F176CB3A2701F /* Pods-BluHome.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-BluHome.modulemap"; sourceTree = "<group>"; };
+		53B4F5090DB6726D3915C5B4A435FD2B /* MMWormholeSession.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MMWormholeSession.h; path = Source/MMWormholeSession.h; sourceTree = "<group>"; };
+		556732A59E1F1D8AA77C7A4FE765BFFE /* Pods_Siri.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Siri.framework; path = "Pods-Siri.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		561EDB5B22E546C7AC81C395D002430B /* Pods-Siri.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Siri.debug.xcconfig"; sourceTree = "<group>"; };
+		59CE3D8509346E21F978CE965C9DA2D7 /* MMWormholeTransiting.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MMWormholeTransiting.h; path = Source/MMWormholeTransiting.h; sourceTree = "<group>"; };
+		5B26F72D47E5F2A05F41D789C0A0AC22 /* Pods-Siri-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Siri-Info.plist"; sourceTree = "<group>"; };
+		5F53675CC9490CFC11CD74F04539FABD /* Pods-SiriUI-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SiriUI-dummy.m"; sourceTree = "<group>"; };
+		60D9F065E5CBB041BBBA654755C1B53B /* MMWormhole-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MMWormhole-umbrella.h"; sourceTree = "<group>"; };
+		616EFBFFF0A26DBA203FED04376F15B5 /* MMWormholeSessionContextTransiting.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MMWormholeSessionContextTransiting.h; path = Source/MMWormholeSessionContextTransiting.h; sourceTree = "<group>"; };
+		6259E68B846C9B7676D5DA38E324F594 /* MMWormholeSessionMessageTransiting.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MMWormholeSessionMessageTransiting.h; path = Source/MMWormholeSessionMessageTransiting.h; sourceTree = "<group>"; };
+		6423113171B77324608FC9E948489D58 /* MMWormhole-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "MMWormhole-Info.plist"; sourceTree = "<group>"; };
+		6D1D8A0242490027B98F00D5F8F0B1CA /* Pods-Siri.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Siri.release.xcconfig"; sourceTree = "<group>"; };
+		6E3DD6EC4F589AB86182B9A57F652A4F /* MMWormholeFileTransiting.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MMWormholeFileTransiting.h; path = Source/MMWormholeFileTransiting.h; sourceTree = "<group>"; };
+		75157B7DA49CD2112705935000B3A13B /* MMWormhole.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = MMWormhole.modulemap; sourceTree = "<group>"; };
+		7669C56380872CE9B85BE046ACDC22F8 /* Pods-Siri-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Siri-acknowledgements.plist"; sourceTree = "<group>"; };
+		80AC8532C3CD536AE7B40B517C7EA409 /* Pods-BluHome-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-BluHome-dummy.m"; sourceTree = "<group>"; };
+		8B306FF12B7A39AD33B570A6355E398D /* MMWormholeSession.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MMWormholeSession.m; path = Source/MMWormholeSession.m; sourceTree = "<group>"; };
+		8FA97F6717D43EFBF88DE5F2C84EA469 /* Pods-BluHome-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BluHome-frameworks.sh"; sourceTree = "<group>"; };
+		93BE44223FABF31AA11E3468B00D8217 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		982146795C57496B1E80488F2385398A /* Pods-BluHome-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BluHome-acknowledgements.plist"; sourceTree = "<group>"; };
+		986F707228A4FD79A1208EECB237F647 /* Pods-SiriUI.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SiriUI.modulemap"; sourceTree = "<group>"; };
+		98E8D68C884B31C6376EA0FE7B953721 /* Pods-Siri.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Siri.modulemap"; sourceTree = "<group>"; };
+		9A566A252AAEA708463507BED38833B1 /* Pods-SiriUI-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SiriUI-Info.plist"; sourceTree = "<group>"; };
+		9B27B457866DDA3465954D8C1AEBB6A7 /* Pods-Siri-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Siri-acknowledgements.markdown"; sourceTree = "<group>"; };
+		9BB5FE904E2DC09CC1645156BC1BDF74 /* Pods-SiriUI-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SiriUI-umbrella.h"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9EC6ADC71817CE4D56B9B2B331E1D39E /* MMWormholeSessionFileTransiting.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MMWormholeSessionFileTransiting.h; path = Source/MMWormholeSessionFileTransiting.h; sourceTree = "<group>"; };
+		A0CC71CE050C951040BB09A539FC67BB /* Pods-Siri-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Siri-umbrella.h"; sourceTree = "<group>"; };
+		A469D0453EAB437DB34E3B786558EF57 /* MMWormhole.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MMWormhole.h; path = Source/MMWormhole.h; sourceTree = "<group>"; };
+		AAAD87EF70C4D69731ED8DC8C4AA9638 /* Pods_SiriUI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SiriUI.framework; path = "Pods-SiriUI.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ACC5466141BE581E92CE2FDAE7ADB0AF /* MMWormholeCoordinatedFileTransiting.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MMWormholeCoordinatedFileTransiting.h; path = Source/MMWormholeCoordinatedFileTransiting.h; sourceTree = "<group>"; };
+		B8AF21C33C1E5EAC14B4B8F2D366FAB7 /* Pods-SiriUI-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SiriUI-acknowledgements.plist"; sourceTree = "<group>"; };
+		BE0BF02C22F2D3126A251D76A5D0D620 /* Pods-Siri-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Siri-dummy.m"; sourceTree = "<group>"; };
+		C2B7A7A12542EF7BB5347E58E0C8820F /* MMWormhole-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MMWormhole-prefix.pch"; sourceTree = "<group>"; };
+		C368741EEABA892C01210DA2CC5A60BE /* MMWormhole.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MMWormhole.xcconfig; sourceTree = "<group>"; };
+		CF40C3EEE69B42726177CFB371FD3124 /* MMWormhole-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MMWormhole-dummy.m"; sourceTree = "<group>"; };
+		D9C203AF2F5D868FFFED227C2527287F /* MMWormhole.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = MMWormhole.framework; path = MMWormhole.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E46EE9B767B3620B926FE1C9B26BCAFA /* Pods-SiriUI.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SiriUI.release.xcconfig"; sourceTree = "<group>"; };
+		E62DC1E65769EE97F4EF9FD9BD08AC6C /* MMWormholeCoordinatedFileTransiting.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MMWormholeCoordinatedFileTransiting.m; path = Source/MMWormholeCoordinatedFileTransiting.m; sourceTree = "<group>"; };
+		E86668C0FCD7A98CF1C9BACF114D5655 /* WatchConnectivity.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WatchConnectivity.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/WatchConnectivity.framework; sourceTree = DEVELOPER_DIR; };
+		EB09CCAF714D2CC995F235D85E92C7CC /* Pods-BluHome-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-BluHome-umbrella.h"; sourceTree = "<group>"; };
+		ED2B23CF534F0FC41157FE8D0F478B01 /* MMWormholeSessionContextTransiting.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MMWormholeSessionContextTransiting.m; path = Source/MMWormholeSessionContextTransiting.m; sourceTree = "<group>"; };
+		F784E285675AE4F5C15D8BA7A1FD6567 /* MMWormhole.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MMWormhole.m; path = Source/MMWormhole.m; sourceTree = "<group>"; };
+		FCDDB0D1B4656D3BE8CC2EE0FCD1A1B9 /* MMWormholeFileTransiting.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MMWormholeFileTransiting.m; path = Source/MMWormholeFileTransiting.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4C8702C6EDB9DECB3D98D47E6DC06A1E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				051FA1B061B569AC229D295D0758CD95 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		85C70BBB3C69D92E43D16BE2E278B4C0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFBC5510BE4C35F79A7A98A047ADC436 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9FADAC8C0D59DC156B9B78739E984B17 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F01557044825FF6B7045B4F808D4827 /* Foundation.framework in Frameworks */,
+				5428438114541CF4E35F43BBBBBBB108 /* WatchConnectivity.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD2E8F1D8347B5DBF699FEED0D15E877 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				359BAA30BBBA34D0AD407C38CA7B934D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		06026168B2CA72E2A777810EE7AF7AFD /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				93BE44223FABF31AA11E3468B00D8217 /* Foundation.framework */,
+				E86668C0FCD7A98CF1C9BACF114D5655 /* WatchConnectivity.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		09A1A55816FC81ED22C63AA12E13C3B9 /* Pods-SiriUI */ = {
+			isa = PBXGroup;
+			children = (
+				986F707228A4FD79A1208EECB237F647 /* Pods-SiriUI.modulemap */,
+				0C0D09B2D8805A25EBA4A160E31441C4 /* Pods-SiriUI-acknowledgements.markdown */,
+				B8AF21C33C1E5EAC14B4B8F2D366FAB7 /* Pods-SiriUI-acknowledgements.plist */,
+				5F53675CC9490CFC11CD74F04539FABD /* Pods-SiriUI-dummy.m */,
+				9A566A252AAEA708463507BED38833B1 /* Pods-SiriUI-Info.plist */,
+				9BB5FE904E2DC09CC1645156BC1BDF74 /* Pods-SiriUI-umbrella.h */,
+				26E78C25A258207C98DA845023B216B7 /* Pods-SiriUI.debug.xcconfig */,
+				E46EE9B767B3620B926FE1C9B26BCAFA /* Pods-SiriUI.release.xcconfig */,
+			);
+			name = "Pods-SiriUI";
+			path = "Target Support Files/Pods-SiriUI";
+			sourceTree = "<group>";
+		};
+		13F8613E545D1772A8CB424DC6D837B6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D9C203AF2F5D868FFFED227C2527287F /* MMWormhole.framework */,
+				26A89DEFC34875B2055CBC0D3BDAB724 /* Pods_BluHome.framework */,
+				556732A59E1F1D8AA77C7A4FE765BFFE /* Pods_Siri.framework */,
+				AAAD87EF70C4D69731ED8DC8C4AA9638 /* Pods_SiriUI.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				06026168B2CA72E2A777810EE7AF7AFD /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2D37E7D5F6E49364BB5C140AA826E849 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				A469D0453EAB437DB34E3B786558EF57 /* MMWormhole.h */,
+				F784E285675AE4F5C15D8BA7A1FD6567 /* MMWormhole.m */,
+				ACC5466141BE581E92CE2FDAE7ADB0AF /* MMWormholeCoordinatedFileTransiting.h */,
+				E62DC1E65769EE97F4EF9FD9BD08AC6C /* MMWormholeCoordinatedFileTransiting.m */,
+				6E3DD6EC4F589AB86182B9A57F652A4F /* MMWormholeFileTransiting.h */,
+				FCDDB0D1B4656D3BE8CC2EE0FCD1A1B9 /* MMWormholeFileTransiting.m */,
+				53B4F5090DB6726D3915C5B4A435FD2B /* MMWormholeSession.h */,
+				8B306FF12B7A39AD33B570A6355E398D /* MMWormholeSession.m */,
+				616EFBFFF0A26DBA203FED04376F15B5 /* MMWormholeSessionContextTransiting.h */,
+				ED2B23CF534F0FC41157FE8D0F478B01 /* MMWormholeSessionContextTransiting.m */,
+				9EC6ADC71817CE4D56B9B2B331E1D39E /* MMWormholeSessionFileTransiting.h */,
+				16905662731888CD596DA269E1838B3B /* MMWormholeSessionFileTransiting.m */,
+				6259E68B846C9B7676D5DA38E324F594 /* MMWormholeSessionMessageTransiting.h */,
+				354318723D85B20F9922695DC2973B02 /* MMWormholeSessionMessageTransiting.m */,
+				59CE3D8509346E21F978CE965C9DA2D7 /* MMWormholeTransiting.h */,
+			);
+			name = Core;
+			sourceTree = "<group>";
+		};
+		4DF5530EBA019B55BC55F7E04C449D55 /* Pods-Siri */ = {
+			isa = PBXGroup;
+			children = (
+				98E8D68C884B31C6376EA0FE7B953721 /* Pods-Siri.modulemap */,
+				9B27B457866DDA3465954D8C1AEBB6A7 /* Pods-Siri-acknowledgements.markdown */,
+				7669C56380872CE9B85BE046ACDC22F8 /* Pods-Siri-acknowledgements.plist */,
+				BE0BF02C22F2D3126A251D76A5D0D620 /* Pods-Siri-dummy.m */,
+				5B26F72D47E5F2A05F41D789C0A0AC22 /* Pods-Siri-Info.plist */,
+				A0CC71CE050C951040BB09A539FC67BB /* Pods-Siri-umbrella.h */,
+				561EDB5B22E546C7AC81C395D002430B /* Pods-Siri.debug.xcconfig */,
+				6D1D8A0242490027B98F00D5F8F0B1CA /* Pods-Siri.release.xcconfig */,
+			);
+			name = "Pods-Siri";
+			path = "Target Support Files/Pods-Siri";
+			sourceTree = "<group>";
+		};
+		58E9630B75AE8F37900D936BA47728E4 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				75157B7DA49CD2112705935000B3A13B /* MMWormhole.modulemap */,
+				C368741EEABA892C01210DA2CC5A60BE /* MMWormhole.xcconfig */,
+				CF40C3EEE69B42726177CFB371FD3124 /* MMWormhole-dummy.m */,
+				6423113171B77324608FC9E948489D58 /* MMWormhole-Info.plist */,
+				C2B7A7A12542EF7BB5347E58E0C8820F /* MMWormhole-prefix.pch */,
+				60D9F065E5CBB041BBBA654755C1B53B /* MMWormhole-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/MMWormhole";
+			sourceTree = "<group>";
+		};
+		5DCE0E9F993848915B91D607A7632B91 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DB76C1EF8B665A23486190EDB585991C /* MMWormhole */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		A7F96430DA9ED6719B2B2785133CBE77 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				F598FEF4486359ADF4A2F9C3226AA56B /* Pods-BluHome */,
+				4DF5530EBA019B55BC55F7E04C449D55 /* Pods-Siri */,
+				09A1A55816FC81ED22C63AA12E13C3B9 /* Pods-SiriUI */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */,
+				5DCE0E9F993848915B91D607A7632B91 /* Pods */,
+				13F8613E545D1772A8CB424DC6D837B6 /* Products */,
+				A7F96430DA9ED6719B2B2785133CBE77 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		DB76C1EF8B665A23486190EDB585991C /* MMWormhole */ = {
+			isa = PBXGroup;
+			children = (
+				2D37E7D5F6E49364BB5C140AA826E849 /* Core */,
+				58E9630B75AE8F37900D936BA47728E4 /* Support Files */,
+			);
+			name = MMWormhole;
+			path = MMWormhole;
+			sourceTree = "<group>";
+		};
+		F598FEF4486359ADF4A2F9C3226AA56B /* Pods-BluHome */ = {
+			isa = PBXGroup;
+			children = (
+				476E2F79A18D3038762F176CB3A2701F /* Pods-BluHome.modulemap */,
+				0D89A46B46A29A951761546BD124B28C /* Pods-BluHome-acknowledgements.markdown */,
+				982146795C57496B1E80488F2385398A /* Pods-BluHome-acknowledgements.plist */,
+				80AC8532C3CD536AE7B40B517C7EA409 /* Pods-BluHome-dummy.m */,
+				8FA97F6717D43EFBF88DE5F2C84EA469 /* Pods-BluHome-frameworks.sh */,
+				022F733C129A695652F412EE65EB8662 /* Pods-BluHome-Info.plist */,
+				EB09CCAF714D2CC995F235D85E92C7CC /* Pods-BluHome-umbrella.h */,
+				0D2991B88439062FDBA2AA0BF69561A1 /* Pods-BluHome.debug.xcconfig */,
+				32D3B33D2FC85B6F705A7BBCF5FCDBED /* Pods-BluHome.release.xcconfig */,
+			);
+			name = "Pods-BluHome";
+			path = "Target Support Files/Pods-BluHome";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		59BA57D97E00363D62A58AA3773801C2 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07DBCA590185D341053CC5265F6F8A17 /* Pods-BluHome-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5AB16E92E937737C182AB747B30470D7 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D989F9CCE0BBEEE8616BF2B20491DE5D /* Pods-Siri-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		687B462BE799015C78CC0B2ABE685A79 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				243D10C381166346FAF4394884502C7D /* Pods-SiriUI-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F2269AC10CE5811A98A31FAD9ADCB26 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E2A094877287F7FB2CDD25A7304D9E41 /* MMWormhole-umbrella.h in Headers */,
+				5911E8745577B61020E74CDCE8F72C56 /* MMWormhole.h in Headers */,
+				5E29A862C84F13C3831B3D7F2E672FC4 /* MMWormholeCoordinatedFileTransiting.h in Headers */,
+				81C9F38B8B963E9EA142DECD722C791B /* MMWormholeFileTransiting.h in Headers */,
+				567FF40EC8A7C974657770DC4C74155C /* MMWormholeSession.h in Headers */,
+				191EFF0B8DC1E7242DDE6D81AC672CCB /* MMWormholeSessionContextTransiting.h in Headers */,
+				B43500247A72D58B683FBA2D6D2754C7 /* MMWormholeSessionFileTransiting.h in Headers */,
+				867B22881D2F1EA0D059479BD2330D63 /* MMWormholeSessionMessageTransiting.h in Headers */,
+				CFBA76041735E02DAD55F3B46DBE7328 /* MMWormholeTransiting.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		47D800201A042AD37D3E7663CCE6A3E2 /* Pods-BluHome */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0DCEAE0EFE1C3C52A76D8237ECD598A3 /* Build configuration list for PBXNativeTarget "Pods-BluHome" */;
+			buildPhases = (
+				59BA57D97E00363D62A58AA3773801C2 /* Headers */,
+				0A31A88D959D888D7B7CB75EE3A1F0B2 /* Sources */,
+				DD2E8F1D8347B5DBF699FEED0D15E877 /* Frameworks */,
+				335D4BC62C7E9AA04E9822559CB51B6A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				15F7128F280AB6239641C71F726980DD /* PBXTargetDependency */,
+			);
+			name = "Pods-BluHome";
+			productName = "Pods-BluHome";
+			productReference = 26A89DEFC34875B2055CBC0D3BDAB724 /* Pods_BluHome.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		A4DAF15D650F31413813467BF1AC1332 /* Pods-Siri */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5F24279811E2D735856E8DF4ECB98D7F /* Build configuration list for PBXNativeTarget "Pods-Siri" */;
+			buildPhases = (
+				5AB16E92E937737C182AB747B30470D7 /* Headers */,
+				CD1FC4A894DE5E00B120B43ABF87B05D /* Sources */,
+				4C8702C6EDB9DECB3D98D47E6DC06A1E /* Frameworks */,
+				3E868B724C91D0B26E1A90444E149435 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				59D7D56F3EB11825346710AACD21AB72 /* PBXTargetDependency */,
+			);
+			name = "Pods-Siri";
+			productName = "Pods-Siri";
+			productReference = 556732A59E1F1D8AA77C7A4FE765BFFE /* Pods_Siri.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		C9EDD792C359FE65889C8D853BC97B9F /* Pods-SiriUI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18895386D5470DB3A6B32BA4B3F0DF80 /* Build configuration list for PBXNativeTarget "Pods-SiriUI" */;
+			buildPhases = (
+				687B462BE799015C78CC0B2ABE685A79 /* Headers */,
+				DA4BA6DA3C6F736AC56DDB7153F2B0E6 /* Sources */,
+				85C70BBB3C69D92E43D16BE2E278B4C0 /* Frameworks */,
+				BFAD4E5D77F47CD1522965EA3EED88A3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-SiriUI";
+			productName = "Pods-SiriUI";
+			productReference = AAAD87EF70C4D69731ED8DC8C4AA9638 /* Pods_SiriUI.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		E37C8494356B2F3F48E654AC46CD6824 /* MMWormhole */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 13E7DA720D5F99A52E03128A9C768F42 /* Build configuration list for PBXNativeTarget "MMWormhole" */;
+			buildPhases = (
+				8F2269AC10CE5811A98A31FAD9ADCB26 /* Headers */,
+				B6E011DBF1120901E2C8FA582447F2BF /* Sources */,
+				9FADAC8C0D59DC156B9B78739E984B17 /* Frameworks */,
+				7D548E08F4D74E6C0C2CB87C52C5B622 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MMWormhole;
+			productName = MMWormhole;
+			productReference = D9C203AF2F5D868FFFED227C2527287F /* MMWormhole.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 13F8613E545D1772A8CB424DC6D837B6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E37C8494356B2F3F48E654AC46CD6824 /* MMWormhole */,
+				47D800201A042AD37D3E7663CCE6A3E2 /* Pods-BluHome */,
+				A4DAF15D650F31413813467BF1AC1332 /* Pods-Siri */,
+				C9EDD792C359FE65889C8D853BC97B9F /* Pods-SiriUI */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		335D4BC62C7E9AA04E9822559CB51B6A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3E868B724C91D0B26E1A90444E149435 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7D548E08F4D74E6C0C2CB87C52C5B622 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFAD4E5D77F47CD1522965EA3EED88A3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0A31A88D959D888D7B7CB75EE3A1F0B2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A6F6B1B96F2D72CA8B7357350C992C8 /* Pods-BluHome-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B6E011DBF1120901E2C8FA582447F2BF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5081FA3C2DB295DEEF59A962B09C3F81 /* MMWormhole-dummy.m in Sources */,
+				7E1EE334AC1214978F1D7766F10FEB8E /* MMWormhole.m in Sources */,
+				6BEB338B7CA84895B474B811A6E9EE1F /* MMWormholeCoordinatedFileTransiting.m in Sources */,
+				E275E625CE0CC817A95B0635ABBACE8E /* MMWormholeFileTransiting.m in Sources */,
+				923B80AE41E93A3FED6A0C22FE38CA71 /* MMWormholeSession.m in Sources */,
+				7B5CC9BF3571AF4980009571CF40CC92 /* MMWormholeSessionContextTransiting.m in Sources */,
+				7283AB31361CCDBFA53AAE5881B2CB92 /* MMWormholeSessionFileTransiting.m in Sources */,
+				8079F023515044C721E0DE68E7B587CB /* MMWormholeSessionMessageTransiting.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD1FC4A894DE5E00B120B43ABF87B05D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04E2CAAE1957EEF06596A4427B4AA93C /* Pods-Siri-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA4BA6DA3C6F736AC56DDB7153F2B0E6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1C062D5937B61F7251032F1B832C31D /* Pods-SiriUI-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		15F7128F280AB6239641C71F726980DD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MMWormhole;
+			target = E37C8494356B2F3F48E654AC46CD6824 /* MMWormhole */;
+			targetProxy = E876D148016ABA350EBB9F2BEA143B21 /* PBXContainerItemProxy */;
+		};
+		59D7D56F3EB11825346710AACD21AB72 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MMWormhole;
+			target = E37C8494356B2F3F48E654AC46CD6824 /* MMWormhole */;
+			targetProxy = D008CE4411C5E99DA459F78609A01F1D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1967DBA2E4CF27332E0DAED8B0CB8486 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E46EE9B767B3620B926FE1C9B26BCAFA /* Pods-SiriUI.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SiriUI/Pods-SiriUI-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SiriUI/Pods-SiriUI.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		2D19B89FF858A71C627088BD16EC5E58 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6D1D8A0242490027B98F00D5F8F0B1CA /* Pods-Siri.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Siri/Pods-Siri-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Siri/Pods-Siri.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		2F5ADA18C94B4A8328B1A93CF892DEFC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 32D3B33D2FC85B6F705A7BBCF5FCDBED /* Pods-BluHome.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-BluHome/Pods-BluHome-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-BluHome/Pods-BluHome.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8AD2BF756A4DCD42BB57674EBB42F17B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C368741EEABA892C01210DA2CC5A60BE /* MMWormhole.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/MMWormhole/MMWormhole-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MMWormhole/MMWormhole-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/MMWormhole/MMWormhole.modulemap";
+				PRODUCT_MODULE_NAME = MMWormhole;
+				PRODUCT_NAME = MMWormhole;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		939F1A8F6BCEB7F9F64D9EEE50CAE014 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		B22D2C9A1502CDA8F51DB4EB4AD7FCA1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 561EDB5B22E546C7AC81C395D002430B /* Pods-Siri.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Siri/Pods-Siri-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Siri/Pods-Siri.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		BB220772CDA24E981AEC8C809D55AB77 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C368741EEABA892C01210DA2CC5A60BE /* MMWormhole.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/MMWormhole/MMWormhole-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MMWormhole/MMWormhole-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/MMWormhole/MMWormhole.modulemap";
+				PRODUCT_MODULE_NAME = MMWormhole;
+				PRODUCT_NAME = MMWormhole;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C98CFC970AF169D28E5BC5A5E1A4A7E7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 26E78C25A258207C98DA845023B216B7 /* Pods-SiriUI.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SiriUI/Pods-SiriUI-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SiriUI/Pods-SiriUI.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		ECB437504DF805BD96CAABF97400B526 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		F150559DB21A1206F7675D03076BBE81 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0D2991B88439062FDBA2AA0BF69561A1 /* Pods-BluHome.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-BluHome/Pods-BluHome-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-BluHome/Pods-BluHome.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0DCEAE0EFE1C3C52A76D8237ECD598A3 /* Build configuration list for PBXNativeTarget "Pods-BluHome" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F150559DB21A1206F7675D03076BBE81 /* Debug */,
+				2F5ADA18C94B4A8328B1A93CF892DEFC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		13E7DA720D5F99A52E03128A9C768F42 /* Build configuration list for PBXNativeTarget "MMWormhole" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB220772CDA24E981AEC8C809D55AB77 /* Debug */,
+				8AD2BF756A4DCD42BB57674EBB42F17B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18895386D5470DB3A6B32BA4B3F0DF80 /* Build configuration list for PBXNativeTarget "Pods-SiriUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C98CFC970AF169D28E5BC5A5E1A4A7E7 /* Debug */,
+				1967DBA2E4CF27332E0DAED8B0CB8486 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				939F1A8F6BCEB7F9F64D9EEE50CAE014 /* Debug */,
+				ECB437504DF805BD96CAABF97400B526 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5F24279811E2D735856E8DF4ECB98D7F /* Build configuration list for PBXNativeTarget "Pods-Siri" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B22D2C9A1502CDA8F51DB4EB4AD7FCA1 /* Debug */,
+				2D19B89FF858A71C627088BD16EC5E58 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

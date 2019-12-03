@@ -20,6 +20,14 @@
 	<string>1</string>
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
+	<key>NSUserActivityTypes</key>
+	<array>
+		<string>ChangeSpeedToHighIntent</string>
+		<string>ChangeSpeedToLowIntent</string>
+		<string>ChangeSpeedToNormalIntent</string>
+		<string>TurnOffTheFanIntent</string>
+		<string>TurnOnTheFanIntent</string>
+	</array>
 	<key>UIApplicationSceneManifest</key>
 	<dict>
 		<key>UIApplicationSupportsMultipleScenes</key>
@@ -39,6 +47,10 @@
 	</dict>
 	<key>UILaunchStoryboardName</key>
 	<string>LaunchScreen</string>
+	<key>NSBluetoothAlwaysUsageDescription</key>
+	<string>Connect with BluHome</string>
+	<key>NSSiriUsageDescription</key>
+	<string>User Siri to control BluHome</string>
 	<key>UIRequiredDeviceCapabilities</key>
 	<array>
 		<string>armv7</string>

@@ -1,0 +1,6 @@
+framework module Pods_SiriUI {
+  umbrella header "Pods-SiriUI-umbrella.h"
+
+  export *
+  module * { export * }
+}

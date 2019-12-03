@@ -3,19 +3,70 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		367C04C7C02DC167CAA067B9 /* Pods_SiriUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36A2D86A2E29E7E9193B885A /* Pods_SiriUI.framework */; };
 		AC3D0C0B2396366900B821CE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC3D0C0A2396366900B821CE /* AppDelegate.swift */; };
 		AC3D0C0D2396366900B821CE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC3D0C0C2396366900B821CE /* SceneDelegate.swift */; };
 		AC3D0C0F2396366900B821CE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC3D0C0E2396366900B821CE /* ContentView.swift */; };
 		AC3D0C112396366C00B821CE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC3D0C102396366C00B821CE /* Assets.xcassets */; };
 		AC3D0C142396366C00B821CE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC3D0C132396366C00B821CE /* Preview Assets.xcassets */; };
 		AC3D0C172396366C00B821CE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC3D0C152396366C00B821CE /* LaunchScreen.storyboard */; };
+		AC3D0C1F239636A200B821CE /* Intents.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = AC3D0C1E239636A200B821CE /* Intents.intentdefinition */; };
+		AC3D0C27239636C400B821CE /* IntentHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC3D0C26239636C400B821CE /* IntentHandler.swift */; };
+		AC3D0C30239636C400B821CE /* IntentsUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC3D0C2F239636C400B821CE /* IntentsUI.framework */; };
+		AC3D0C33239636C400B821CE /* IntentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC3D0C32239636C400B821CE /* IntentViewController.swift */; };
+		AC3D0C36239636C400B821CE /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC3D0C34239636C400B821CE /* MainInterface.storyboard */; };
+		AC3D0C3A239636C400B821CE /* SiriUI.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = AC3D0C2D239636C400B821CE /* SiriUI.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		AC3D0C3D239636C400B821CE /* Siri.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = AC3D0C24239636C400B821CE /* Siri.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		AC3D0C46239636E000B821CE /* BluetoothManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC3D0C45239636E000B821CE /* BluetoothManager.swift */; };
+		AC3D0C47239644F000B821CE /* Intents.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = AC3D0C1E239636A200B821CE /* Intents.intentdefinition */; };
+		CF91C3C778E82D0A8D6FBC18 /* Pods_BluHome.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8100EE97FC5F7F5B0E96877A /* Pods_BluHome.framework */; };
+		EFD07DC9E5610A9DD9BA4576 /* Pods_Siri.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 419BF3D3C6AE3EF018354114 /* Pods_Siri.framework */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		AC3D0C38239636C400B821CE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AC3D0BFF2396366900B821CE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AC3D0C2C239636C400B821CE;
+			remoteInfo = SiriUI;
+		};
+		AC3D0C3B239636C400B821CE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AC3D0BFF2396366900B821CE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AC3D0C23239636C400B821CE;
+			remoteInfo = Siri;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		AC3D0C44239636C400B821CE /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				AC3D0C3A239636C400B821CE /* SiriUI.appex in Embed App Extensions */,
+				AC3D0C3D239636C400B821CE /* Siri.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		1A84CF06442BD365145C72A3 /* Pods-SiriUI.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SiriUI.release.xcconfig"; path = "Target Support Files/Pods-SiriUI/Pods-SiriUI.release.xcconfig"; sourceTree = "<group>"; };
+		36A2D86A2E29E7E9193B885A /* Pods_SiriUI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SiriUI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		419BF3D3C6AE3EF018354114 /* Pods_Siri.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Siri.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4CA67A6798B8E9534502B547 /* Pods-SiriUI.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SiriUI.debug.xcconfig"; path = "Target Support Files/Pods-SiriUI/Pods-SiriUI.debug.xcconfig"; sourceTree = "<group>"; };
+		77505B91EC081395BEE2248C /* Pods-BluHome.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BluHome.debug.xcconfig"; path = "Target Support Files/Pods-BluHome/Pods-BluHome.debug.xcconfig"; sourceTree = "<group>"; };
+		8100EE97FC5F7F5B0E96877A /* Pods_BluHome.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BluHome.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		94F0E2BF360B54D5F49807E6 /* Pods-Siri.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Siri.release.xcconfig"; path = "Target Support Files/Pods-Siri/Pods-Siri.release.xcconfig"; sourceTree = "<group>"; };
 		AC3D0C072396366900B821CE /* BluHome.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BluHome.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC3D0C0A2396366900B821CE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AC3D0C0C2396366900B821CE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +75,20 @@
 		AC3D0C132396366C00B821CE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		AC3D0C162396366C00B821CE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AC3D0C182396366C00B821CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AC3D0C1E239636A200B821CE /* Intents.intentdefinition */ = {isa = PBXFileReference; lastKnownFileType = file.intentdefinition; path = Intents.intentdefinition; sourceTree = "<group>"; };
+		AC3D0C24239636C400B821CE /* Siri.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = Siri.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC3D0C26239636C400B821CE /* IntentHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntentHandler.swift; sourceTree = "<group>"; };
+		AC3D0C28239636C400B821CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AC3D0C2D239636C400B821CE /* SiriUI.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = SiriUI.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC3D0C2F239636C400B821CE /* IntentsUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IntentsUI.framework; path = System/Library/Frameworks/IntentsUI.framework; sourceTree = SDKROOT; };
+		AC3D0C32239636C400B821CE /* IntentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntentViewController.swift; sourceTree = "<group>"; };
+		AC3D0C35239636C400B821CE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
+		AC3D0C37239636C400B821CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AC3D0C45239636E000B821CE /* BluetoothManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BluetoothManager.swift; sourceTree = "<group>"; };
+		AC3D0C482396492900B821CE /* BluHome.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = BluHome.entitlements; sourceTree = "<group>"; };
+		AC3D0C492396495600B821CE /* Siri.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Siri.entitlements; sourceTree = "<group>"; };
+		E7E86AD56B0436C618C70647 /* Pods-BluHome.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BluHome.release.xcconfig"; path = "Target Support Files/Pods-BluHome/Pods-BluHome.release.xcconfig"; sourceTree = "<group>"; };
+		ECEFD5DDE3355A1313377C59 /* Pods-Siri.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Siri.debug.xcconfig"; path = "Target Support Files/Pods-Siri/Pods-Siri.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +96,24 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CF91C3C778E82D0A8D6FBC18 /* Pods_BluHome.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC3D0C21239636C400B821CE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFD07DC9E5610A9DD9BA4576 /* Pods_Siri.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC3D0C2A239636C400B821CE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC3D0C30239636C400B821CE /* IntentsUI.framework in Frameworks */,
+				367C04C7C02DC167CAA067B9 /* Pods_SiriUI.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -41,7 +124,12 @@
 			isa = PBXGroup;
 			children = (
 				AC3D0C092396366900B821CE /* BluHome */,
+				AC3D0C1E239636A200B821CE /* Intents.intentdefinition */,
+				AC3D0C25239636C400B821CE /* Siri */,
+				AC3D0C31239636C400B821CE /* SiriUI */,
+				AC3D0C2E239636C400B821CE /* Frameworks */,
 				AC3D0C082396366900B821CE /* Products */,
+				F164B726E637C1D557D82405 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -49,6 +137,8 @@
 			isa = PBXGroup;
 			children = (
 				AC3D0C072396366900B821CE /* BluHome.app */,
+				AC3D0C24239636C400B821CE /* Siri.appex */,
+				AC3D0C2D239636C400B821CE /* SiriUI.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -56,7 +146,9 @@
 		AC3D0C092396366900B821CE /* BluHome */ = {
 			isa = PBXGroup;
 			children = (
+				AC3D0C482396492900B821CE /* BluHome.entitlements */,
 				AC3D0C0A2396366900B821CE /* AppDelegate.swift */,
+				AC3D0C45239636E000B821CE /* BluetoothManager.swift */,
 				AC3D0C0C2396366900B821CE /* SceneDelegate.swift */,
 				AC3D0C0E2396366900B821CE /* ContentView.swift */,
 				AC3D0C102396366C00B821CE /* Assets.xcassets */,
@@ -75,6 +167,50 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		AC3D0C25239636C400B821CE /* Siri */ = {
+			isa = PBXGroup;
+			children = (
+				AC3D0C492396495600B821CE /* Siri.entitlements */,
+				AC3D0C26239636C400B821CE /* IntentHandler.swift */,
+				AC3D0C28239636C400B821CE /* Info.plist */,
+			);
+			path = Siri;
+			sourceTree = "<group>";
+		};
+		AC3D0C2E239636C400B821CE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AC3D0C2F239636C400B821CE /* IntentsUI.framework */,
+				8100EE97FC5F7F5B0E96877A /* Pods_BluHome.framework */,
+				419BF3D3C6AE3EF018354114 /* Pods_Siri.framework */,
+				36A2D86A2E29E7E9193B885A /* Pods_SiriUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AC3D0C31239636C400B821CE /* SiriUI */ = {
+			isa = PBXGroup;
+			children = (
+				AC3D0C32239636C400B821CE /* IntentViewController.swift */,
+				AC3D0C34239636C400B821CE /* MainInterface.storyboard */,
+				AC3D0C37239636C400B821CE /* Info.plist */,
+			);
+			path = SiriUI;
+			sourceTree = "<group>";
+		};
+		F164B726E637C1D557D82405 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				77505B91EC081395BEE2248C /* Pods-BluHome.debug.xcconfig */,
+				E7E86AD56B0436C618C70647 /* Pods-BluHome.release.xcconfig */,
+				ECEFD5DDE3355A1313377C59 /* Pods-Siri.debug.xcconfig */,
+				94F0E2BF360B54D5F49807E6 /* Pods-Siri.release.xcconfig */,
+				4CA67A6798B8E9534502B547 /* Pods-SiriUI.debug.xcconfig */,
+				1A84CF06442BD365145C72A3 /* Pods-SiriUI.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -82,18 +218,59 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AC3D0C1B2396366C00B821CE /* Build configuration list for PBXNativeTarget "BluHome" */;
 			buildPhases = (
+				96E274E57F0A10E51B7061E0 /* [CP] Check Pods Manifest.lock */,
 				AC3D0C032396366900B821CE /* Sources */,
 				AC3D0C042396366900B821CE /* Frameworks */,
 				AC3D0C052396366900B821CE /* Resources */,
+				AC3D0C44239636C400B821CE /* Embed App Extensions */,
+				A13F18B56C5E7D49F7C16394 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				AC3D0C39239636C400B821CE /* PBXTargetDependency */,
+				AC3D0C3C239636C400B821CE /* PBXTargetDependency */,
 			);
 			name = BluHome;
 			productName = BluHome;
 			productReference = AC3D0C072396366900B821CE /* BluHome.app */;
 			productType = "com.apple.product-type.application";
+		};
+		AC3D0C23239636C400B821CE /* Siri */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC3D0C41239636C400B821CE /* Build configuration list for PBXNativeTarget "Siri" */;
+			buildPhases = (
+				2598C1FE7F2B59EEAF175B36 /* [CP] Check Pods Manifest.lock */,
+				AC3D0C20239636C400B821CE /* Sources */,
+				AC3D0C21239636C400B821CE /* Frameworks */,
+				AC3D0C22239636C400B821CE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Siri;
+			productName = Siri;
+			productReference = AC3D0C24239636C400B821CE /* Siri.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		AC3D0C2C239636C400B821CE /* SiriUI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC3D0C3E239636C400B821CE /* Build configuration list for PBXNativeTarget "SiriUI" */;
+			buildPhases = (
+				A6ED0F52B3C999A0950DEDD5 /* [CP] Check Pods Manifest.lock */,
+				AC3D0C29239636C400B821CE /* Sources */,
+				AC3D0C2A239636C400B821CE /* Frameworks */,
+				AC3D0C2B239636C400B821CE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SiriUI;
+			productName = SiriUI;
+			productReference = AC3D0C2D239636C400B821CE /* SiriUI.appex */;
+			productType = "com.apple.product-type.app-extension";
 		};
 /* End PBXNativeTarget section */
 
@@ -106,6 +283,12 @@
 				ORGANIZATIONNAME = "mohammad mugish";
 				TargetAttributes = {
 					AC3D0C062396366900B821CE = {
+						CreatedOnToolsVersion = 11.3;
+					};
+					AC3D0C23239636C400B821CE = {
+						CreatedOnToolsVersion = 11.3;
+					};
+					AC3D0C2C239636C400B821CE = {
 						CreatedOnToolsVersion = 11.3;
 					};
 				};
@@ -124,6 +307,8 @@
 			projectRoot = "";
 			targets = (
 				AC3D0C062396366900B821CE /* BluHome */,
+				AC3D0C23239636C400B821CE /* Siri */,
+				AC3D0C2C239636C400B821CE /* SiriUI */,
 			);
 		};
 /* End PBXProject section */
@@ -139,7 +324,108 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		AC3D0C22239636C400B821CE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC3D0C2B239636C400B821CE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC3D0C36239636C400B821CE /* MainInterface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2598C1FE7F2B59EEAF175B36 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Siri-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		96E274E57F0A10E51B7061E0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BluHome-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A13F18B56C5E7D49F7C16394 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BluHome/Pods-BluHome-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BluHome/Pods-BluHome-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-BluHome/Pods-BluHome-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A6ED0F52B3C999A0950DEDD5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SiriUI-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		AC3D0C032396366900B821CE /* Sources */ = {
@@ -148,11 +434,43 @@
 			files = (
 				AC3D0C0B2396366900B821CE /* AppDelegate.swift in Sources */,
 				AC3D0C0D2396366900B821CE /* SceneDelegate.swift in Sources */,
+				AC3D0C1F239636A200B821CE /* Intents.intentdefinition in Sources */,
 				AC3D0C0F2396366900B821CE /* ContentView.swift in Sources */,
+				AC3D0C46239636E000B821CE /* BluetoothManager.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC3D0C20239636C400B821CE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC3D0C47239644F000B821CE /* Intents.intentdefinition in Sources */,
+				AC3D0C27239636C400B821CE /* IntentHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC3D0C29239636C400B821CE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC3D0C33239636C400B821CE /* IntentViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AC3D0C39239636C400B821CE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AC3D0C2C239636C400B821CE /* SiriUI */;
+			targetProxy = AC3D0C38239636C400B821CE /* PBXContainerItemProxy */;
+		};
+		AC3D0C3C239636C400B821CE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AC3D0C23239636C400B821CE /* Siri */;
+			targetProxy = AC3D0C3B239636C400B821CE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		AC3D0C152396366C00B821CE /* LaunchScreen.storyboard */ = {
@@ -161,6 +479,14 @@
 				AC3D0C162396366C00B821CE /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		AC3D0C34239636C400B821CE /* MainInterface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AC3D0C35239636C400B821CE /* Base */,
+			);
+			name = MainInterface.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -282,8 +608,11 @@
 		};
 		AC3D0C1C2396366C00B821CE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 77505B91EC081395BEE2248C /* Pods-BluHome.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = BluHome/BluHome.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"BluHome/Preview Content\"";
 				DEVELOPMENT_TEAM = 898D22Z9A6;
@@ -302,8 +631,11 @@
 		};
 		AC3D0C1D2396366C00B821CE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E7E86AD56B0436C618C70647 /* Pods-BluHome.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = BluHome/BluHome.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"BluHome/Preview Content\"";
 				DEVELOPMENT_TEAM = 898D22Z9A6;
@@ -315,6 +647,88 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = Mugish.BluHome;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		AC3D0C3F239636C400B821CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4CA67A6798B8E9534502B547 /* Pods-SiriUI.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 898D22Z9A6;
+				INFOPLIST_FILE = SiriUI/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Mugish.BluHome.SiriUI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AC3D0C40239636C400B821CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1A84CF06442BD365145C72A3 /* Pods-SiriUI.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 898D22Z9A6;
+				INFOPLIST_FILE = SiriUI/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Mugish.BluHome.SiriUI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		AC3D0C42239636C400B821CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ECEFD5DDE3355A1313377C59 /* Pods-Siri.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = Siri/Siri.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 898D22Z9A6;
+				INFOPLIST_FILE = Siri/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Mugish.BluHome.Siri;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AC3D0C43239636C400B821CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 94F0E2BF360B54D5F49807E6 /* Pods-Siri.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = Siri/Siri.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 898D22Z9A6;
+				INFOPLIST_FILE = Siri/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Mugish.BluHome.Siri;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -337,6 +751,24 @@
 			buildConfigurations = (
 				AC3D0C1C2396366C00B821CE /* Debug */,
 				AC3D0C1D2396366C00B821CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AC3D0C3E239636C400B821CE /* Build configuration list for PBXNativeTarget "SiriUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC3D0C3F239636C400B821CE /* Debug */,
+				AC3D0C40239636C400B821CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AC3D0C41239636C400B821CE /* Build configuration list for PBXNativeTarget "Siri" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC3D0C42239636C400B821CE /* Debug */,
+				AC3D0C43239636C400B821CE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

@@ -1,0 +1,6 @@
+framework module Pods_BluHome {
+  umbrella header "Pods-BluHome-umbrella.h"
+
+  export *
+  module * { export * }
+}
